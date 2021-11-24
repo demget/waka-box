@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Keepalive Workflow
-        uses: gautamkrishnar/keepalive-workflow@1.0.6
+        uses: gautamkrishnar/keepalive-workflow@master
       - uses: actions/checkout@master
       - name: Update gist
         uses: matchai/waka-box@master
