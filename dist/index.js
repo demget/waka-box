@@ -862,7 +862,7 @@ module.exports = (function(e, t) {
         const n = e.data.languages[t];
         const { name: i, percent: s, text: o } = n;
         const a = [
-          trimRightStr(i, 10).padEnd(10),
+          trimRightStr(i, 9).padEnd(9),
           o.padEnd(14),
           generateBarChart(s, 21),
           String(s.toFixed(1)).padStart(5) + "%"
